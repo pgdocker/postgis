@@ -1,4 +1,5 @@
 FROM novapo/postgres
 
 RUN apk add --no-cache \
-        postgis@testing
+        postgis@testing \
+        libpng
